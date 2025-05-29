@@ -43,7 +43,7 @@ const Tweet = ({tweet} : any) => {
       
       
   }
-  console.log(tweet?.createdAt)
+  console.log(typeof(new Date(tweet?.createdAt)));
   return (
     <div className="border-b border-gray-200">
       <div>
